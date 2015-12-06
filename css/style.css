@@ -1,0 +1,508 @@
+header, section, footer, aside, nav, article, figure, figcaption { display: block;
+ }
+
+ body{
+ 	background-size: 100%;
+ 	border: #99cc99 2px solid;
+
+ }
+ .wrapper{
+ 	position:relative;
+ 	padding-bottom:0;  
+ }
+ header{
+ 	position: relative;
+ 	background-size: 100%;
+
+ }
+ header  li{
+ 	display: inline; 
+ }
+ ul{
+ 	list-style-type: none;
+ }
+ .name{
+ 	position: relative;
+ 	background-size: 100%;
+ 	border: #99cc99 2px solid;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ }
+ 
+.name img{
+	width: 8%;
+	height:3%;
+}
+.title img{
+	text-align: center;
+	margin-left: 30%;
+	font-family:sans-serif, "skia";
+	font-size: 200%;
+	color: #336699;
+	width: 20%;
+	height: 20%;
+}
+#banner{
+	position: relative;
+	background-size: 100%;
+	background-color: #cccc33;
+	border: solid 2px #99cc99;
+	margin-top: 0;
+	padding: 4%;
+}
+#banner img{
+	width:100%;
+	height: 2%;
+	position: center;
+	
+	
+
+} 
+ .signup_login{
+   padding-left: 90%;
+   padding-right: 2%; 
+   text-align: right;
+   
+ }
+.signup_login li{
+   display: inline;
+
+   
+
+}
+
+.signup_login a {
+   text-decoration: none;
+   font-family: "pt sans";
+   font-size:.8em;
+   color: #003300;
+}
+
+
+nav{
+	background-size: 100%;
+	background-color: #66cc33;
+	color:#003300;
+	font-family:"stencil";
+	font-size:1.5em;
+	padding: .5%;
+	border: #99cc99 2px solid;
+	padding-left: 2%; 
+}
+nav a {
+	color:#003300;
+	text-decoration: none;
+}
+nav a:hover{
+	color:#fff;
+}
+.content{
+	position:relative;
+	padding-bottom:20%;
+	background-size: 100%;
+	overflow: auto;
+
+}
+#bread_crumb{
+	text-align: center;
+	background-size: 100%;
+	margin-left: 30%;
+	font-size:0.87em;
+	font-family: "öptima";
+	
+}
+#bread_crumb li{
+	display: inline;
+}
+
+#bread_crumb a{
+	color:#003300;
+	text-decoration: none;
+
+}
+
+
+
+.active{
+	font-weight: bold;
+	color:#003300;
+}
+form{
+	position:center;
+	background-size: 100%;
+	height: 200%;
+	margin-left: 30%;	
+}
+
+.main .sb_input{
+	width:60%;
+	border: solid 1.5px #66cc33;
+}
+.main .sb_search{
+	height:18px;
+	width: 25px;
+	margin-left:-30px;
+	background: url(../images/search.png)center center no-repeat;
+	background-size: 100%;
+	border: solid 1px #66cc33;
+	
+}
+section{
+	position: relative;
+	float:left;
+	width:65%;
+	height:40%;
+	margin-left: 15%;
+	overflow: auto;
+
+}
+section ul{
+	position: relative;
+	float:left;
+	width: 30%;
+	height: 15%;
+	margin:5% 5%;
+	overflow: auto;
+	
+
+}
+
+article{
+	position:relative;
+	float:left;
+	width:100%;
+	height:100%;
+	overflow: auto;
+}
+
+
+ .accordion{
+	position: center;
+	width: 50%;
+	height:100%;
+	background-size: 100%;
+	background-color:#66cc33;
+	margin-left: 25%;
+	margin-right: 30%;
+
+}
+
+.accordion li{
+    border-bottom: #fff 1px solid;
+    margin-left: 0;
+    width:100%;
+    background: url(../images/arrow.png) no-repeat right;
+    background-size: 10%;
+    b
+    padding: 1%;
+}
+
+.accordion a{
+	text-decoration: none;
+	color: #003300;
+	text-align: left;
+	width: 100%;
+	height:100%;
+	background-size: 100%;
+	
+	
+}
+.content-details{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background-color: #66cc33;
+	margin-left: 25%;
+	margin-right: 60%;
+	overflow: hidden;
+	padding-bottom: 0;
+	
+
+}
+.content-member{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background-color: #336699;
+	border: 1px solid #000033;
+	margin-left: 25%;
+	margin-right: 60%;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+.edit-links{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	margin-left: 20%;
+	margin-right: 60%;
+	overflow: hidden;
+	padding-bottom: 0;
+	margin-top: 1%;
+}
+
+.content-details ul, .content-member ul{
+	margin: 1%;
+	padding: 0;
+	display: block;
+	float: left;
+	background-size: 100%;
+	width: 100%;
+	border-bottom: 1px solid #003300;
+}
+.content-details li, .content-member li{
+    display: inline;
+    background-size: 100%;
+
+}
+.company-details{
+	color:#fff;
+	padding-right: 0;
+}
+.info-details{
+	font-size: 1em;
+	color:#003300;
+	margin-left: 2%;
+
+}
+
+.edit{
+	position:relative;
+	width: 60%;
+	height: 100%;
+	background-size: 100%;
+	background-color:#333366;
+	padding: 2%; 
+	color:#fff;
+	margin-top: 4%;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: .8em;
+}
+.edit:hover{
+    background-color: #66cc33;
+}
+.cancel-account{
+	color:#333366;
+	margin-left: 40%;
+	margin-right: 40%;
+	font-size: .5em;
+	text-decoration: none;
+}
+.upload{
+	color:#333366;
+	text-decoration: none;
+}
+.cancel-account a, .upload a{
+	color:#333366;
+	text-decoration: none;
+
+}
+.cancel-account:hover{
+  background-color: #66cc33;
+}
+
+.about-us, #about-us, .about-us-title{
+	background-size: 100%;
+	margin-right: 5%;
+	margin-left: 5%;
+	color:#003300;
+	
+}
+
+#about-us li{
+	display: inline;
+	float:left;
+	width: 45%;
+	height: 50%;
+	margin-left: 1%;
+	font-size:  sans-serif, "myriad pro";
+
+
+}
+#about-us img{
+	width: 80%;
+	height: 100%;
+	margin-top: 15%;
+}
+article a{
+	text-align: right;
+	text-decoration: none;
+	color: #003300;
+}
+article  a:hover{
+    background-color: #66cc33;
+}
+ aside{
+ 	overflow: auto;	
+ }
+
+aside li{
+	position:relative;
+	width:100%;
+	height:100%;
+	float:right;
+	margin-left:5%;
+	margin-right: 20%; 
+	margin-top: 25%;
+	display: inline-block;
+	padding-bottom: 0;
+	
+
+
+}
+
+h2{
+	text-align: center;
+	color:#333399;
+	font-family: "öptima";
+	font-size: 1.2em;
+	font-weight: bold;
+}
+h3{
+	text-align: center;
+	color:#333366;
+	font-family:"optima" ;
+	font-weight: bold;
+	font-size: 1em;
+	
+}
+.member-title{
+	color:#003333;
+	font-family: "perpetua";
+	font-weight: bold;
+	font-size: 1.3em;
+
+}
+
+p{
+	font-size:0.87em;
+	font-family: "öptima";
+}
+.news_title{
+	font-weight: bold;
+}
+.main img{
+	width:100%;
+	height: 90%;
+}
+.signup_title img{
+ display: inline-block;
+ position: relative;
+ width: 100%;
+}
+.signup_form{
+	border: solid 2px darkblue;
+	padding: 1%;
+	color: blue;
+	width: 60%;
+	margin: 10% 10%;
+	padding-bottom:5px;
+}
+.signup_form img{
+	width: 20%;
+	height: 30%;
+	margin-right: 20%;
+
+}
+.signup_form p{
+	border-bottom: solid 2px darkblue;
+	margin:.5%;
+    font-size: .5em;
+
+}
+.signup{
+	font-size: 1.1em;
+	position: relative;
+	float: left;
+	width: 40%;
+	color: darkblue; 
+	margin-left:1%;
+
+	
+} 
+
+.signup2{
+	position: relative;
+	float: right;
+	width: 40%;
+	color: blue;
+	margin-left:0;
+	margin-top: -40%;
+	border: solid .5px gray;
+}
+.signup2_login{
+	position: relative;
+	float: right;
+	width: 40%;
+	color: blue;
+	margin-left:0;
+	margin-top: -15%;
+	border: solid .5px gray;
+}
+.signup-buttons{
+	position: relative;
+	width: 100%;
+	
+
+}
+.button_signup{
+color: #fff;
+background-color: darkgreen;
+padding: 1%;
+font-size: 1em;
+padding: .5% 30% .5% 30%;
+margin-left:0;
+
+
+}
+.button_signup_cancel{
+color: #fff;
+background-color: green;
+padding: 1%;
+font-size: 1em;
+padding: .5% 30% .5% 30%;
+margin-left:0;
+
+}
+#login_button{
+	background-color: #000033;
+}
+#login_button_cancel{
+	background-color: #009999;
+}
+footer{
+	position:relative;
+	background-color: #003300;
+	background-size: 100%;
+	font-family: "stencil";
+	font-size:0.8em;
+	border: #99cc99 2px solid;
+	padding-bottom: .5%;
+	overflow: auto;
+
+}
+footer ul{
+	margin-left: 20%;
+}
+footer li{
+	display: inline;
+	display: inline-block;
+	padding-right: 10%;
+	margin-bottom: 5%;
+	overflow: auto;
+	margin-left: 10%;
+	
+}
+.media{
+	margin-top: 1%;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
