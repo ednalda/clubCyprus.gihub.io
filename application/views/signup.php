@@ -22,7 +22,7 @@
 			      	    <?php
 							  echo form_open('form/signup', array('style'=>'margin-left:0px; float:left '));
 							  
-							  echo '<ul class="signup2" style="margin-top:15%;float:left; width:100%">'; 
+							  echo '<ul class="signup2" style="margin-top:10%;float:left; width:100%">'; 
 							  echo '<li style="margin-top:1%">' ;
 			      	          echo form_input('firstname');
 							  echo '</li>' ; 

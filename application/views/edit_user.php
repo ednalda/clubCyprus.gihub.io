@@ -51,7 +51,7 @@
 			      	          echo form_input('confpass');
 							  echo '</li>' ;
 							  echo '</ul><div style="clear:both;"></div>';
-							  echo form_submit('submit', 'Update', 'class="login_btn", class="button_signup"');
+							  echo form_submit('submit', 'Update', 'class="login_btn", class="button_signup", style="padding: 2%;background-color:green; color:#fff; position:center; width: 100%"');
 							  echo form_close(); 
 						?><div style="clear:both"></div>
 					   <div style="clear:both"></div>
